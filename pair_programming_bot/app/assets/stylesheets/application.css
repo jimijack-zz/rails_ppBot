@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+  display: block;
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+
+.topSection {
+  border: 0px solid white;
+  height: 50px;
+  width: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: bottom;
+  margin-top: 350px;
+}
+
+.question {
+  border: 0px solid yellow;
+  margin-top: 200px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family: "Tahoma", "Verdana", "Helvetica", "Arial", sans-serif;
+}
+
+.answer {
+  border: 0px solid green;
+  margin: 30px auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yesButton {
+  margin: 0 auto;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #5bb75b;
+  padding: 11px 19px;
+  font-size: 17.5px;
+  border-radius: 6px;
+  width: 35px;
+}
+
+.noButton {
+  margin: 0 auto;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #da4f49;
+  padding: 11px 19px;
+  font-size: 17.5px;
+  border-radius: 6px;
+  width: 35px;
+  text-align: center;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
